@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        // prompt를 이용해 입력받은 숫자에 해당하는
+        // 단수의 구구단을 출력하는 코드를 만들어 주세요.
+        // 2~9단까지만 출력되게 만들어주세요.
+
+        var num = prompt("단수를 입력 해주세요.");
+
+        for (var i = 1; i <= 9; i++){
+            if(2 <= num && num < 10){
+            document.write(num + "*" + i + "=" + (num * i) + "<br/>" );
+            }else {
+                document.write("2 ~ 9 사이의 숫자를 입력해주세요.")
+                break;
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
